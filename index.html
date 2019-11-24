@@ -10,13 +10,11 @@
     <!-- UIkit JS -->
     <script src="./js/uikit.min.js"></script>
     <script src="./js/uikit-icons.min.js"></script>
-    <title>Document</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Веб-аналитика</title>
 </head>
-<body>
-    
-    <h1 class="uk-heading-divider uk-padding">Веб-аналитика</h1>
-
-
+<body class=" uk-text-justify">    
+    <h2 class="uk-heading-divider uk-padding"><a class="uk-link-text" uk-tooltip="title: (англ. Web analytics); pos: bottom">Веб-аналитика</a></h1>
 
     <!--<a href="#offcanvas-slide"  uk-icon="icon: menu"  uk-sticky uk-padding></a>-->
     <div uk-sticky>
@@ -27,6 +25,10 @@
         <div class="uk-offcanvas-bar">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul class="uk-nav uk-nav-default">
+                <li class="uk-nav-header"><a href="#link-main-points">Общие положения</a></li>
+                <li><a href="#link-definition">Определение</a></li>
+                <li><a href="#link-usage-sphere">Область применения</a></li>
+                <li class="uk-nav-header"><a href="#link-usage">Использование веб-аналитики</a></li>
                 <li class="uk-active"><a href="#">Active</a></li>
                 <li><a href="#">Item</a></li>
                 <li class="uk-nav-header">Header</li>
@@ -37,29 +39,98 @@
             </ul>
     
         </div>
-    </nav>          
-
-    <div class="uk-padding-large">
-            <ul uk-tab="connect: .switcher-container; animation: uk-animation-fade" class="uk-padding-remove-bottom">
-                    <li class="uk-active"><a href="">fff</a></li>
-                    <li><a href="">f22</a></li>
-                    <li class="uk-disabled"><a></a></li>
-                </ul>
-            
-                <ul class="uk-switcher switcher-container">
-                    <li>Hello!</li>
-                    <li>Hello again!</li>
-                    <li>Bazinga!</li>
-                </ul>
-            
-                <div class="uk-card uk-card-body">
-                    <h3 class="uk-card-title">fff</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+    </nav>        
+    <div class="uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">       
+        <h3 id="link-main-points" class="uk-heading-bullet">Общие положения</h2>
+        <div id="link-definition" class="uk-card uk-card-body uk-card-default uk-margin-small">
+            <h3 class="uk-card-title uk-text-light">Определение</h3>
+            <p>Система измерения, сбора, анализа, представления и интерпретации информации о посетителях веб-сайтов с целью их улучшения и оптимизации. </p>
+            <p>Основной задачей веб-аналитики является мониторинг посещаемости веб-сайтов, на основании данных которого определяется аудитория сайта и изучается поведение посетителей для принятия решений по развитию и расширению функциональных возможностей веб-ресурса. Веб-аналитика позволяет не только работать над улучшением сайтов, но и проводить работы по оптимизации бюджета на онлайн-продвижение.</p>
+        </div> 
+        <div id="link-usage-sphere" class="uk-card uk-card-body  uk-card-default uk-margin-small">
+            <h3 class="uk-card-title uk-text-light">Область применения</h3>
+            <p>
+                Веб-аналитика помогает во многих аспектах развития сайта и онлайн-продвижения. Вот основные из них:                         
+            </p>
+            <ul class="uk-list uk-list-divider uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+                <li>Развитие функциональности сайта на основании тенденций в поведении посетителей</li>
+                <li>Оценка эффективности рекламных кампаний и поискового продвижения в интернете</li>
+                <li>Выявление проблемных мест в структуре, навигации и контенте сайта</li>
+                <li>Оптимизация продуктовой линейки, представленной на сайте</li>
+            </ul>   
+            <p>
+                Статистика посещаемости разделов и веб-страниц сайта позволяет понять:                          
+            </p>
+            <ul class="uk-list uk-list-bullet uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+                <li>Количество просмотренных веб-страниц</li>
+                <li>Ключевые слова и фразы, по которым посетители находят сайт в поисковых системах</li>
+                <li>Географию посетителей</li>
+                <li>Время, проведенное на веб-странице посетителем</li>
+                <li>Переходы между веб-страницами</li>
+                <li>Аудиторию сайта (случайные, постоянные посетители и т. д.)</li>
+                <li>Удобство навигации сайта для посетителей</li>
+            </ul>   
+        </div> 
+        <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <h3 class="uk-card-title uk-text-light">Определение</h3>
+                    <p>Система измерения, сбора, анализа, представления и интерпретации информации о посетителях веб-сайтов с целью их улучшения и оптимизации. </p>
+                    <p>Основной задачей веб-аналитики является мониторинг посещаемости веб-сайтов, на основании данных которого определяется аудитория сайта и изучается поведение посетителей для принятия решений по развитию и расширению функциональных возможностей веб-ресурса. Веб-аналитика позволяет не только работать над улучшением сайтов, но и проводить работы по оптимизации бюджета на онлайн-продвижение.</p>
                 </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3 class="uk-card-title">Right</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="uk-divider-icon">
+    <div class="uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">
+        <h3 id="link-usage" class="uk-heading-bullet">Использование веб-аналитики</h2>
+        <ul uk-tab="connect: .switcher-container-usage; animation: uk-animation-fade">
+            <li class="uk-active"><a href="">Выявление аудитории</a></li>
+            <li><a href="">Сегментация аудитории</a></li>
+            <li><a href="">Оптимизация рекламного бюджета</a></li>
+            <li><a href="">Оптимизация контента</a></li>
+            <li><a href="">Выбор стратегии</a></li>
+        </ul>
+        <ul class="uk-switcher switcher-container-usage uk-margin">
+            <li>
+                <div class="uk-card uk-card-body uk-card-default">
+                    <h3 class="uk-card-title uk-text-light">Выявление целевой аудитории</h3>
+                    <p>Если проект молодой, и точный портрет потенциального клиента еще не составлен, то полученные с помощью web-анализа данные помогут в этом. Изучая интересы, демографические и социальные особенности существующих клиентов и их поведения в сети, можно более точно понять и составить правильный портрет целевой аудитории.</p>
+                </div> 
+            </li>
+            <li>
+                <div class="uk-card uk-card-body uk-card-default">
+                    <h3 class="uk-card-title uk-text-light">Разделение аудитории на сегменты</h3>
+                    <p>Статистика и анализ позволяют сегментировать аудиторию по разным признакам, к примеру, по среднему чеку. Изучив особенности каждого сегмента, появялется возможность подобрать наиболее эффективные объявления, сделать более качественное и индивидуальное предложение каждой категории людей.</p>
+                </div> 
+            </li>
+            <li>
+                <div class="uk-card uk-card-body uk-card-default">
+                    <h3 class="uk-card-title uk-text-light">Оптимизация рекламного бюджета</h3>
+                    <p>Существующие компании не обладают неисчерпаемыми ресурсами. Изучение и анализ данных по рекламным кампаниям позволяют выявить наиболее эффективные площадки и стратегии и отказаться от неэффективных показов, которые впустую тратят бюджет.</p>
+                </div> 
+            </li>
+            <li>
+                <div class="uk-card uk-card-body uk-card-default">
+                    <h3 class="uk-card-title uk-text-light">Оптимизация контента</h3>
+                    <p>Изучая трафик и источники переходов, можно понять, соответствует ли содержимое страниц сайта тому, что искал пользователь, какими потребностями обладает целевая аудитория, и что она ищет. На основе этих данных оптимизируется контент на сайте. </p>
+                </div> 
+            </li>
+            <li>
+                <div class="uk-card uk-card-body uk-card-default">
+                    <h3 class="uk-card-title uk-text-light">Подбор оптимальных стратегий</h3>
+                    <p>Изучение аналитических и статистических данных позволяет находить и использовать наиболее эффективные стратегии показов, продвижения и рекламы.</p>
+                </div> 
+            </li>
+        </ul>
+            
+               
                 <div class="uk-column-1-2">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                     
@@ -68,19 +139,19 @@
                         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                     </div>
                     <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
-                            <div>
-                                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                                    <h3 class="uk-card-title">Left</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                                    <h3 class="uk-card-title">Right</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                                <h3 class="uk-card-title">Left</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                                <h3 class="uk-card-title">Right</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="uk-column-1-2">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                         
